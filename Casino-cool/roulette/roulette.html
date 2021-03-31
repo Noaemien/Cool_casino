@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="roulette.css" rel="stylesheet" type="text/css" />
+    
+  </head>
+  
+  <body > 
+    
+    <div>
+      
+      <div class = "header">
+        
+        <titre id="COOLSINO"> COOLSINO </titre>
+        <p id="banque"></p>
+      </div>
+      
+      <p id="randomNumber"> </p>
+      
+      
+      <button onClick="NombreRandom()">JOUER</button>
+
+      <div id="multiplicateur">
+        <button onClick="Multi_pari()">MULTIPLICATEUR PARI</button>
+        <p id="text-multi-pari"></p>
+      </div>
+
+      <div id="tout-mise">
+        <button onClick="">ALL-IN</button>
+        <p id="text-tout-mise"></p>
+      </div>
+      <p> PARIEZ </p>
+     
+      <div id="bouton-pair">
+        <button onClick="PariSur('Pair')">PAIR</button>
+        <p id="Somme-misee-pair"></p>
+      </div>
+     
+      <div id="bouton-impair">
+        <button onClick="PariSur('Impair')">IMPAIR</button>
+        <p id="Somme-misee-impair"></p>
+     
+      </div>
+
+      <div id="bouton-rouge">
+        <button onClick="PariSur('Rouge')">ROUGE</button>
+        <p id="Somme-misee-rouge"></p>
+      
+      
+      </div>
+
+
+      <div id="bouton-noir">
+        <button onClick="PariSur('Noir')">NOIR</button>
+        <p id="Somme-misee-noir"></p>
+      
+      </div>
+
+
+      <div id="bouton-vert">
+        <button onClick="PariSur('Vert')">VERT</button>
+        <p id="Somme-misee-vert"></p>
+      
+      </div>
+
+
+
+
+
+
+      
+
+    
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="roulette.js"></script>
+  </body>
+</html>
