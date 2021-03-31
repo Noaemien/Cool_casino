@@ -1,2 +1,5 @@
 # Cool_casino
-School project.
+School project with my friends ADRIEN and ANIS
+
+IT IS COOL 
+$$$$$$$$
